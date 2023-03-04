@@ -7,4 +7,5 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
       - name: second
-        run: gcloud init
+        run: ls -l
+      
